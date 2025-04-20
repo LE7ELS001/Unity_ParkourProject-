@@ -49,5 +49,7 @@ public class CameraController : MonoBehaviour
         transform.rotation = targetRotation;
     }
 
+    public Quaternion PlanarRotation => Quaternion.Euler(0, rotationY, 0);
+
 
 }
