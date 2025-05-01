@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VaultFence
   m_EditorClassIdentifier: 
   animName: VaultFence
-  obstacleTag: fence
+  obstacleTag: Fence
   minHeight: 0.8
   maxHeight: 1.2
   rotateToObstacle: 1

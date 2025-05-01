@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2c339803d7814ab38fa311802c914, type: 3}
   m_Name: VaultCustom
   m_EditorClassIdentifier: 
-  animName: VaultFence1-2
-  obstacleTag: fence
+  animName: VaultFence
+  obstacleTag: Fence
   minHeight: 0.8
   maxHeight: 1.2
   rotateToObstacle: 1
   posActionDelay: 0
   enableTargetMatching: 1
   matchBodyPart: 5
-  matchStartTime: 0.056
-  matchTargetTime: 0.214
+  matchStartTime: 0.09
+  matchTargetTime: 0.347
   matchPosWeight: {x: 0, y: 1, z: 1}
-  centerOffsetPercent: 0.2
+  centerOffsetPercent: 0.1
   outerVaultAnims:
   - VaultFence1-2
   - VaultFence

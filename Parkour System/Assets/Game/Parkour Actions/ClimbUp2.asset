@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eccff4b20007c4c4984214cc27c295d6, type: 3}
   m_Name: ClimbUp2
   m_EditorClassIdentifier: 
-  animName: 
-  obstacleTag: 
-  minHeight: 0
-  maxHeight: 0
-  rotateToObstacle: 0
-  posActionDelay: 0
+  animName: WallRun
+  obstacleTag: Block
+  minHeight: 3
+  maxHeight: 5
+  rotateToObstacle: 1
+  posActionDelay: 0.5
   enableTargetMatching: 1
-  matchBodyPart: 0
-  matchStartTime: 0
-  matchTargetTime: 0
+  matchBodyPart: 2
+  matchStartTime: 0.137
+  matchTargetTime: 0.709
   matchPosWeight: {x: 0, y: 1, z: 1}
